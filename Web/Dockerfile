@@ -16,7 +16,7 @@ COPY . .
 RUN yarn build
 
 # Stage 2
-FROM nginx:1.27.3 as nginx
+FROM nginx:1.28.0 as nginx
 
 WORKDIR /usr/share/nginx/html
 
